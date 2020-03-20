@@ -35,7 +35,7 @@ An HTML5 "web app" that consists of two primary interfaces:
 
 These two communicate primarilly via [websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API), and will likely require a server to aid in firewall traversal (perhaps something [webrtc](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)).
 
-Both interfaces will need to access device audio hardware and there is a webapi that might fit the bill, [WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API).
+Both interfaces will need to access device audio hardware and there is a webapi that might fit the bill: [WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API).
 
 What's unclear to me at this point is whether or not these bits will be able to simutanously output the click track while recording the musician's audio.  If that's possible the next question is with regard to the best way to timestamp the recorded audio in sync with the click.  Right now I don't know enough about these API's to know, and since this is an unusual use case it may not be supported at all.  I imagine there's a way to play a sound and record at the same time, but this is the one stage in the system where timing is critical, so any syncronization error here undermines the entire system.  I know this level of accuracy is possible using more native programming interfaces, but if we can make it work in a browser, it's a huge win.
 
@@ -46,3 +46,5 @@ What's unclear to me at this point is whether or not these bits will be able to 
 * https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
 * https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
 * https://github.com/cwilso/metronome
+* https://www.html5rocks.com/en/tutorials/getusermedia/intro/
+* https://developers.google.com/web/updates/2012/09/Live-Web-Audio-Input-Enabled
