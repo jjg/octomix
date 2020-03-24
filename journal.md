@@ -19,3 +19,7 @@ If we go the web app route, we have two pages: one for the engineer and one for 
 This isn't a bad place to start, and I think [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) is the first place to look.
 
 After spending about 45 minutes getting up-to-date on what can be done in a browser, I'm reminded of why I stopped writing web software.  Perhaps I just need to take smaller bites, but it's such a mess trying to do the simplest things, and right now I'm leaning toward building custom hardware for this thing.
+
+Since this afternoon's work I've decided that I'm not interested in working on a pure web-based version of this device.  Maybe it's possible, and there are significant advantages, but I don't get any joy out of web development (at least not at the browser level) anymore and if I'm going to do this it's going to need to be done using something I actually like working with.  Perhaps once we get somewhere we can entice some talented web developer to join in?
+
+For now I'm going to switch my focus toward a custom hardware based system.
